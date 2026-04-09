@@ -3,8 +3,8 @@ Autoint_mlp_train.ipynb
 Autointmlp.py
 Show_st_plus.py
 
-Base line:
-# 에포크, 학습률, 드롭아웃, 배치사이즈, 임베딩 크기 등 정의
+### Base line:
+에포크, 학습률, 드롭아웃, 배치사이즈, 임베딩 크기 등 정의
 epochs=5
 learning_rate= 0.0001
 dropout= 0.4
@@ -24,7 +24,7 @@ embed_dim= 16
  
  
 
-<추가 실험>
+### <추가 실험>
 -epoch 5까지 val_loss가 계속해서 줄어듦.
 Epoch를 키우면 더 줄어들 수 있겠다는 판단? -> 12으로 증가!
 혹시나 epoch을 늘리면 과적합될수도 – dropout을 0.5로 조금 증가
